@@ -127,3 +127,25 @@ $autoload['language'] = array();
 |	$autoload['model'] = array('first_model' => 'first');
 */
 $autoload['model'] = array();
+/*
+  | -------------------------------------------------------------------
+  |  Auto-load Helper Files
+  | -------------------------------------------------------------------
+  | Prototype:
+  |
+  |	$autoload['helper'] = array('url', 'file');
+ */
+$autoload['helper'] = array('common', 'url');
+
+/*
+  | -------------------------------------------------------------------
+  |  Auto-load Libraries
+  | -------------------------------------------------------------------
+  | These are the classes located in the system/libraries folder
+  | or in your application/libraries folder.
+  |
+  | Prototype:
+  |
+  |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
+ */
+$autoload['libraries'] = array('database','parser');
