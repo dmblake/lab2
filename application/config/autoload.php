@@ -149,3 +149,5 @@ $autoload['helper'] = array('common', 'url');
   |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
  */
 $autoload['libraries'] = array('database','parser');
+
+$autoload['model'] = array('images');
